@@ -9,7 +9,7 @@ resource "aws_db_instance" "swiggy-db" {
   storage_type                = "gp3"
   engine                      = "mysql"
   engine_version              = "8.0.39"
-  instance_class              = "db.m5.large"
+  instance_class              = "db.t3.micro"
   identifier                  = "swiggy-db"
   username                    = "admin"
   password                    = "Devopsbyraham007*"
