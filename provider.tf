@@ -9,13 +9,6 @@ terraform {
       version = "5.84.0"
     }
 }
-cloud {
-    organization = "ASSOCIATESWIGGY"
-
-    workspaces {
-      name = "new-infra-3-tier"
-    }
-  }
 }
 
 
